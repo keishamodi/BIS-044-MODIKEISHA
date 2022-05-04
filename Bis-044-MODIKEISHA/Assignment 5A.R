@@ -31,4 +31,5 @@ graph <- ggplot(DF, aes(x = Quarter, y = VALUE, colour = Port)) +
   geom_point() +
   theme_bw()
 graph
+#-5 na, -5 plot 90/100
 
