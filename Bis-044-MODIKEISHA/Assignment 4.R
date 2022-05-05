@@ -35,3 +35,4 @@ df$Title <- replace(df$Title, df$Title=="Mayor-President", "Mayor")
 
 results <- count(df,df$Title)
 View(results)
+#-5 missing replace commands 95/100
